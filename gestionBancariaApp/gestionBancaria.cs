@@ -75,7 +75,7 @@ public class gestionBancaria
         switch (error)
         {
             case ERR_CANTIDAD_INDICADA_NEGATIVA:
-                MessageBox.Show("Cantidad no válidá, sólo se admiten cantidades positivas.");
+                MessageBox.Show("Cantidad no válida, sólo se admiten cantidades positivas.");
                 break;
             case ERR_OPERACION_NO_SELECCIONADA:
                 MessageBox.Show("Seleccione la operación a realizar");

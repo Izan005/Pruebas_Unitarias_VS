@@ -48,22 +48,6 @@ namespace gestionBancariaTest
 
         }
 
-        /**[TestMethod]
-        public void validarMetodoReintegro11()
-        {
-            double saldoInicial = 1000;
-            double ingreso = -100;
-            double saldoActual = 0;
-            double saldoEsperado = 1000;
-
-            gestionBancaria cuenta = new gestionBancaria(saldoInicial);
-            //Método a probar
-            cuenta.realizarReintegro(ingreso);
-            //afirmación de la prueba (valor esperado Vs. Valor obtenido)
-            saldoActual = cuenta.obtenerSaldo();
-
-            Assert.AreEqual(saldoEsperado, saldoActual, 0.001, "El saldo de la cuenta no es correcto");
-        }**/
 
         [TestMethod]
         public void validarMetodoReintegro12()
